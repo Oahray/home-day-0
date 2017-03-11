@@ -1,5 +1,5 @@
 # HOME-DAY-0
-This repository contains solutions to, and tests for, exercises assigned in Day 0 of the Andela Bootcamp.
+This repository contains solutions to, and tests for, exercises assigned on Day 0 of the Andela Bootcamp.
 
 **REPOSITORY STRUCTURE**
 
