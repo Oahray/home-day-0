@@ -1,0 +1,30 @@
+{
+  "name": "home-day-0",
+  "version": "1.0.0",
+  "description": "Solutions to, and tests for, home day 0 Andela bootcamp challenges.",
+  "main": "app/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oahray/home-day-0.git"
+  },
+  "keywords": [
+    "bootcamp",
+    "day-0"
+  ],
+  "author": "Oare Arene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oahray/home-day-0/issues"
+  },
+  "homepage": "https://github.com/Oahray/home-day-0#readme",
+  "dependencies": {
+    "jasmine": "^2.5.3",
+    "mocha": "^3.2.0"
+  }
+}
