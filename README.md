@@ -2,6 +2,7 @@
 This repository contains solutions to, and tests for, exercises assigned in Day 0 of the Andela Bootcamp.
 
 REPOSITORY STRUCTURE
+
 There are three folders in the repository:
    1. app: containing solutions to the three Andelab challenges - **findMaxMin**, **fizzBuzz**, and **aritGeo.**
    2. tests: containing jasmine tests for the three challenges.
@@ -14,7 +15,8 @@ HOW TO USE:
    3. Run `npm install` to install the dependencies. 
 
 TESTING:
+
 The official test framework is Jasmine. However, mocha tests are also included in a separate folder. To run the tests:
    1. Navigate to the folder containing the files for the test framework of your choice.
-   2. For Jasmine, run `**Jasmine [file name]**` eg for aritGeo, run `**jasmine aritGeo**`.
-   3. For Mocha, run `**Mocha [file name]** eg for aritGeo, run `**mocha aritGeo**`.
+   2. For Jasmine, run `Jasmine [file name]` eg for aritGeo, run `jasmine aritGeo`.
+   3. For Mocha, run `Mocha [file name]` eg for aritGeo, run `**mocha aritGeo**`.
