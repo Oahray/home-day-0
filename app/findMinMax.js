@@ -1,5 +1,13 @@
 var findMinMax = function(arr) {
   var result = [];
+  if (! Array.isArray(arr)) {
+    return "Invalid input. Only strings accepted"
+  }
+
+  else if (arr.length === 0) {
+    return [];
+  }
+
   arr.sort(function(x, y) {
     return x - y;
   });
