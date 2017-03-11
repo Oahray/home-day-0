@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  var aritGeo = require('../app.aritGeo.js');
+  var aritGeo = require('../app/aritGeo.js');
 
   describe("Determine the sequence of an array of numbers: ", function() {
 
@@ -59,6 +59,21 @@
         expect(aritGeo([1, 8, 27, 64, 125])).toEqual(-1);
       });
       
+    });
+    
+    describe("Case for a non-array input", function() {
+    
+      it("should return invalid input for 'Philip'", function() {
+      expect(aritGeo('Philip')).toEqual("Invalid input. Array expected.");
+      });
+      
+      it("should return invalid input for 0", function() {
+        expect(aritGeo(0)).toEqual("Invalid input. Array expected.");
+      });
+      
+      it("should return invalid input for {}", function() {
+      expect(aritGeo({})).toEqual("Invalid input. Array expected.");
+      })      
     });
   });
 })();
