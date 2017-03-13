@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jasmine spec/*.js && mocha mocha-tests"  
+    "test": "jasmine spec/*.js && mocha mocha-tests"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,9 @@
     "url": "https://github.com/Oahray/home-day-0/issues"
   },
   "homepage": "https://github.com/Oahray/home-day-0#readme",
-  "devDependencies": {
+  "dependencies": {
     "jasmine": "^2.5.3",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
   }
 }
