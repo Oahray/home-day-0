@@ -1,5 +1,5 @@
-# HOME-DAY-0
-This repository contains solutions to, and tests for, exercises assigned on Day 0 of the Andela Bootcamp.
+# SELF-LEARNING-CLINIC
+This repository contains solutions to, and tests for, exercises assigned at the self-learning clinic of the Andela Bootcamp.
 
 **REPOSITORY STRUCTURE**
 
@@ -17,6 +17,6 @@ There are three folders in the repository:
 **TESTING:**
 
 The official test framework is Jasmine. However, mocha tests are also included in a separate folder. To run the tests:
-   1. Navigate to the folder containing the files for the test framework of your choice.
-   2. For Jasmine, run `Jasmine [file name]` eg for aritGeo, run `jasmine aritGeo`.
-   3. For Mocha, run `Mocha [file name]` eg for aritGeo, run `**mocha aritGeo**`.
+   1. Navigate to the repository folder on the command line.
+   2. Run `npm test`
+  
